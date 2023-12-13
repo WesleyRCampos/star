@@ -1,0 +1,81 @@
+
+.navbar{
+  background: -webkit-linear-gradient(to left, #a40505, #21d4fd);
+  background: -o-linear-gradient(to left, #a40505, #21d4fd);
+  background: -moz-linear-gradient(to left, #a40505, #21d4fd);
+  background: linear-gradient(to left, #a40505, #21d4fd);
+
+}
+
+.navbar h1 {
+  color: rgb(255, 252, 252);
+  text-align: center;
+  padding: 30px 0;
+}
+.gallery {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 100%;
+  gap: 20px;
+  background-image:
+    linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+    url(/public/img/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.container-characters {
+  padding: 20px;
+}
+.card {
+  text-align: center;
+  flex: 1 0 50px;
+  margin-bottom: 20px;
+  box-shadow: 0px 1px 10px rgba(250, 250, 250, 0.336);
+  cursor: default;
+  transition: all 400ms ease;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(199, 189, 189, 0.973);
+  transform: translateY(-3%);
+}
+
+img{
+  width: 50px;
+  height: 300px;
+  border-radius: 8px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.card-text {
+  font-size: 14px;
+  color: white;
+}
+
+
+.card-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
